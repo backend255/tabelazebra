@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+.tabaleZebra {
+    display: flex;
+    justify-content: center;
+}
+
+.tabaleZebra table {
+    margin-top: 100px;
+}
+
+.tabaleZebra table th,
+td {
+    border: 1px solid;
+}
+
+.tabaleZebra table th {
+    background-color: #CCC;
+}
+
+.tabaleZebra table tr:nth-child(even) {
+    background-color: lawngreen;
+}
